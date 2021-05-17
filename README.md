@@ -1,5 +1,5 @@
 # Responsive-Web-Design by freeCodeCamp
-Responsive-Web-Design course from freeCodeCamp. Course related information can be found [here.](https://www.freecodecamp.org/learn/responsive-web-design/)
+Responsive-Web-Design course offered by freeCodeCamp. Course related information can be found [here.](https://www.freecodecamp.org/learn/responsive-web-design/)
 
 |⠀Part⠀ | Content |
 | :---:  | :---  |
