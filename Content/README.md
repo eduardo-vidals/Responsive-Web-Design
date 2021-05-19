@@ -9,3 +9,4 @@ Responsive-Web-Design course offered by freeCodeCamp. Course related information
 | Part 4 | Applied Accessibility |
 | Part 5 | Responsive Web Design Principles | 
 | Part 6 | CSS Flexbox |
+| Part 7 | CSS Grid | 
