@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
+
+body {
+    background-color: rgba(211, 211, 211, 0.8);
+    text-align: center;
+    margin: 0;
+    font-family: B612, sans-serif;
+}
+
+h1 {
+    padding-top: 5px;
+    margin: 0 0 -20px 0;
+}
+
+header {
+    background-color: rgba(169, 169, 169, 0.4);
+    width: 100%;
+}
+
+#image {
+    max-width: 900px;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+ul {
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
+
+li {
+    font-family: Calibri, sans-serif;
+    margin-top: 15px;
+}
+
+figcaption {
+    padding-top: 10px;
+    font-size: 12px;
+}
