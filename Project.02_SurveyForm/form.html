@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="form.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+    <h1 id="title"> Survey for CS Students </h1>
+    <p id="description">
+        <strong>
+            This survey is to see student's interests regarding concepts of Computer Science.
+            There will possibly be an expansion of CS courses depending on the responses from students.
+        </strong>
+    </p>
+</header>
+
+<main>
+
+    <form id="survey-form" action="">
+
+        <div class="form-option">
+            <label id="name-label" for="name">
+                Name:
+            </label>
+            <input id="name" type="text" placeholder="  Enter your name." required>
+        </div>
+
+        <div class="form-option">
+            <label id="email-label" for="email">
+                Email:
+            </label>
+            <input id="email" type="email" placeholder="   Enter your email." required>
+        </div>
+
+        <div class="form-option">
+            <label id="number-label" for="number">
+                What is your current GPA?
+            </label>
+            <input id="number" type="number" min=0 max=4 placeholder="  Enter your GPA." required>
+        </div>
+
+        <div class="form-option">
+            <label for="dropdown">
+                What CS concept interests you the most?
+            </label>
+            <select name="options" id="dropdown" required>
+                <option disabled selected value> What concepts interest you the most?</option>
+                <option value="CS402"> CS402: Algorithms</option>
+                <option value="CS403"> CS403: Game Development</option>
+                <option value="CS404"> CS404: Theory of Computability</option>
+                <option value="CS405"> CS405: Web Development</option>
+                <option value="CS406"> CS406: Software Engineering</option>
+            </select>
+        </div>
+
+        <div class="form-option">
+            <p>Have you felt that we needed more CS Courses? </p>
+            <div class="vertical-buttons">
+                <label class="pick">
+                    <input name="satisfactory" type="radio" value="Yes"> Yes
+                </label>
+                <label class="pick">
+                    <input name="satisfactory" type="radio" value="No"> No
+                </label>
+            </div>
+        </div>
+
+        <div class="form-option">
+            <p>Please check all the courses that you have taken for CS. </p>
+            <div class="vertical-buttons">
+                <label class="pick">
+                    <input name="classes" type="checkbox" value="CS101">
+                    CS101
+                </label>
+                <label class="pick">
+                    <input name="classes" type="checkbox" value="CS102">
+                    CS102
+                </label>
+                <label class="pick">
+                    <input name="classes" type="checkbox" value="CS202">
+                    CS202
+                </label>
+                <label class="pick">
+                    <input name="classes" type="checkbox" value="CS203">
+                    CS203
+                </label>
+                <label class="pick">
+                    <input name="classes" type="checkbox" value="CS204">
+                    CS204
+                </label>
+                <label class="pick">
+                    <input name="classes" type="checkbox" value="CS204">
+                    CS209
+                </label>
+                <label class="pick">
+                    <input name="classes" type="checkbox" value="None of the above">
+                    None of the above.
+                </label>
+            </div>
+        </div>
+
+        <div class="form-option">
+            <label for="textarea"></label>
+            What would you like to provide as feedback? (Optional)
+            <textarea id="textarea" name="comment" placeholder="Enter feedback."></textarea>
+        </div>
+
+        <div class="form-option">
+            <input id="submit" type="submit" value="Submit">
+        </div>
+    </form>
+
+</main>
+
+<footer>
+    <p>This survey is for educational purposes only.</p>
+</footer>
+</body>
+</html>
