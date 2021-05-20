@@ -77,8 +77,12 @@ footer {
     height: 100%;
     text-align: center;
     background-color: black;
-    letter-spacing: 0.2px;
+    letter-spacing: 1px;
     font-weight: bold;
+}
+
+textarea {
+    border-radius: 7px;
 }
 
 .form-option {
