@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="productlanding.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="productlanding.js"></script>
+</head>
+
+<body>
+<header id="header">
+
+    <div id="menu-icon" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <div class="icon-background"></div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a class="nav-link" href="#h2"> About </a>
+                </li>
+
+                <li>
+                    <a class="nav-link" href="#features"> Features </a>
+                </li>
+
+                <li>
+                    <a class="nav-link" href="#form"> Subscribe </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="header-div">
+        <img id="header-img" src="logo.png" alt="">
+    </div>
+
+    <h1 id="website-name"> AlgoVisual </h1>
+
+    <nav id="nav-bar">
+        <ul>
+            <li>
+                <a class="nav-link" href="#h2"> About </a>
+            </li>
+
+            <li>
+                <a class="nav-link" href="#features"> Features </a>
+            </li>
+
+            <li>
+                <a class="nav-link" href="#form"> Subscribe </a>
+            </li>
+        </ul>
+    </nav>
+
+</header>
+
+<main>
+    <h2 id="h2">How it works!</h2>
+
+    <div>
+        <iframe id="video"
+                src="https://www.youtube.com/embed/a3ww0gwEszo">
+        </iframe>
+    </div>
+
+    <div id="features">
+        <h3> Features </h3>
+        <ul>
+            <li>Best time complexity</li>
+            <li>Best space complexity</li>
+            <li>Real World Applications</li>
+        </ul>
+    </div>
+
+    <form id="form" action="https://www.freecodecamp.org/email-submit">
+        <div class="form-option">
+            <label id="email-label" for="email">
+                Subscribe for updates regarding AlgoVisual!
+            </label>
+            <input id="email" type="email" name="email" placeholder="Enter an email address.">
+
+
+            <input id="submit" type="submit" value="Subscribe">
+        </div>
+    </form>
+
+</main>
+
+<footer id="footer">
+    <p>&copy2021 algovisual - All rights reserved.</p>
+</footer>
+
+</body>
+
+</html>
