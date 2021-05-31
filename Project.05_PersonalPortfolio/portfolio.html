@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/6b5996c172.js" crossorigin="anonymous"></script>
+    <script src="portfolio.js"></script>
+</head>
+
+<body>
+<header>
+    <nav id="navbar">
+        <ul>
+            <li>
+                <a href="#welcome-section">About</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#footer">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="welcome-section">
+        <h1>
+            Hello, I'm Eduardo
+        </h1>
+        <p id="job">
+            <i>an aspiring software engineer</i>
+        </p>
+    </section>
+
+
+    <section id="projects">
+        <h2> Here are some of my projects</h2>
+        <div id="project-tiles-div">
+            <div id="project-tiles">
+                <a class=project-tile href="https://codepen.io/baldder/full/oNZYLEj" target="_blank">
+                    <img src="https://imgur.com/B0Nv3NU.png" alt="">
+                    <p id="clack">
+                        Tribute Page
+                    </p>
+                </a>
+
+
+                <a class=project-tile href="https://codepen.io/baldder/full/mdWOgxx" target="_blank">
+                    <img src="https://imgur.com/lH1bGfS.png" alt="">
+                    <p>
+                        Survey Form
+                    </p>
+                </a>
+
+                <a class=project-tile href="https://codepen.io/baldder/full/wvJgjbR" target="_blank">
+                    <img src="https://imgur.com/zBO4mIK.png" alt="">
+                    <p>
+                        Product Landing Page
+                    </p>
+                </a>
+
+                <a class=project-tile href="https://codepen.io/baldder/full/rNyyZEa" target="_blank">
+                    <img src="https://imgur.com/hcCGnP7.png" alt="">
+                    <p>
+                        Documentation Page
+                    </p>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <div id="social">
+        <h3> Connect with me through these platforms </h3>
+        <nav id="navbar-contact">
+            <ul>
+                <li>
+                    <a href="https://github.com/eduardo-vidals" id="profile-link" class="fab fa-github-square" target="_blank">
+                        <span class="social-text">GitHub</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/in/eduardo-vidals" class="fab fa-linkedin" target="_blank">
+                        <span class="social-text">LinkedIn</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.instagram.com/eddy_the_professionalpenguin/" class="fab fa-instagram" target="_blank">
+                        <span class="social-text">Instagram</span>
+                    </a>
+                </li>
+
+                <li>
+                    <p class="fab fa-discord social-text" title="Copy Text" onclick="copyElementText('discordID')">
+                        <span class="social-text">Discord</span>
+                    </p>
+                    <span id="discordID"> baldder#8949 </span>
+                </li>
+
+                <li>
+                    <p class="fa fa-envelope social-text" title="Copy Text" onclick="copyElementText('emailAddress')">
+                        <span class="social-text">Email</span>
+                    </p>
+                    <span id="emailAddress"> eduardovidals69@gmail.com </span>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</main>
+
+<footer>
+    <div id="footer">
+        <p> &copy2021 Copyright - All Rights Reserved.</p>
+    </div>
+</footer>
+</body>
+
+</html>
